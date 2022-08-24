@@ -12,7 +12,7 @@ const IndexPage = () => {
         description="Centralized place for decentralized talent"
       />
       <div className={styles.home}>
-        <div className="row flex-grow-1">
+        <div className="row flex-grow-1 m-0">
           <div
             className={classes(
               "col-md-6 d-flex align-items-center justify-content-center",
