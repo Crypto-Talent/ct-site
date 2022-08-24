@@ -1,0 +1,83 @@
+@import "../styles/variables";
+@import "../styles/mixins";
+
+.home {
+  width: 100%;
+  height: 100%;
+  display: flex;
+
+  .puzzlePiece {
+    &:nth-child(1) {
+      background-color: black;
+      color: $gold;
+    }
+
+    &:nth-child(2) {
+      background: rgb(191,149,63);
+      background: linear-gradient(180deg, rgba(191,149,63,1) 0%, rgba(252,246,186,1) 75%, rgba(170,119,28,1) 100%);
+
+      @include md() {
+        background: linear-gradient(90deg, rgba(191,149,63,1) 0%, rgba(252,246,186,1) 75%, rgba(170,119,28,1) 100%);
+      }
+
+      color: black;
+      position: relative;
+    }
+
+    .puzzleTab {
+      position: absolute;
+      top: -95px;
+      height: 100px;
+      width: 130px;
+      border-radius: 100%;
+
+      @include md() {
+        top: revert;
+        left: -110px;
+        width: 120px;
+        height: 160px;
+        border-radius: 100%;
+      }
+
+      background: rgba(191,149,63,1);
+    }
+
+    .content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      a {
+        text-decoration: none;
+      }
+
+      .actionButton {
+        padding: 16px 32px;
+        border-radius: 50px;
+        border: 0;
+        font-weight: bold;
+        transition: 0.2s;
+
+        &.actionButtonBusinesses {
+          background: $gold;
+          color: black;
+
+          &:hover {
+            background: #42360e;
+            color:$gold;
+          }
+        }
+
+        &.actionButtonTalents {
+          background: black;
+          color: $gold;
+
+          &:hover {
+            background: $gold;
+            color: black;
+          }
+        }
+      }
+    }
+  }
+}
