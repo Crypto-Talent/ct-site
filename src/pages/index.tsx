@@ -8,8 +8,8 @@ const IndexPage = () => {
   return (
     <Layout>
       <Seo
-        title="Crypto talent"
-        description="smislicemo nesto"
+        title="Home"
+        description="Centralized place for decentralized talent"
       />
       <div className={styles.home}>
         <div className="row flex-grow-1">
