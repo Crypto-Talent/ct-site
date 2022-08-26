@@ -37,7 +37,7 @@ const IndexPage = () => {
             <div className={styles.puzzleTab}></div>
             <div className={styles.content}>
               <b><h2>For Talents</h2></b>
-              <a href={""}>
+              <a href={"https://google.com"}>
                 <div className={classes(styles.actionButton, styles.actionButtonTalents)}>
                   Send your CV
                 </div>
