@@ -21,7 +21,7 @@ const IndexPage = () => {
           >
             <div className={styles.content}>
               <b><h2>For Companies</h2></b>
-              <a href={""}>
+              <a href="https://docs.google.com/forms/d/1wDQdtn-TOZ9Ku_CKzRNPkKL3roXh6uzKWm3txVt-4ts/viewform" target="_blank" rel="noopener noreferrer">
                 <div className={classes(styles.actionButton, styles.actionButtonBusinesses)}>
                   Submit job posting
                 </div>
@@ -37,7 +37,7 @@ const IndexPage = () => {
             <div className={styles.puzzleTab}></div>
             <div className={styles.content}>
               <b><h2>For Talents</h2></b>
-              <a href={"https://google.com"}>
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSf_pKbi0CPnlMbGkr6VwaqJdn7ABt0OP9ylXurGQTUIoqLc8A/viewform" target="_blank" rel="noopener noreferrer">
                 <div className={classes(styles.actionButton, styles.actionButtonTalents)}>
                   Send your CV
                 </div>
